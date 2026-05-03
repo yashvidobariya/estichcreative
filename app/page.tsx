@@ -152,7 +152,7 @@ export default function Home() {
           <div className="site-padding relative mx-auto flex min-h-screen max-w-7xl items-center pt-28 pb-16">
             <motion.div variants={sectionMotion} initial="hidden" animate="show" className="max-w-2xl">
               <p className="mb-4 text-xs uppercase tracking-[0.3em] text-white/75">Premium Men&apos;s Embroidery Studio</p>
-              <h1 className="text-5xl font-black leading-tight tracking-[0.08em] sm:text-6xl md:text-[80px]">STITCH WITH <span style={{ color: accentColor }}>CONFIDENCE</span></h1>
+              <h1 className="text-5xl font-black leading-tight tracking-[0.08em] sm:text-6xl md:text-[80px]">ESTICH WITH <span style={{ color: accentColor }}>CONFIDENCE</span></h1>
               <p className="mt-6 max-w-xl text-sm text-white/85 md:text-lg">Crafted for the modern man: premium embroidery, elevated streetwear, and tailored silhouettes built to make every outfit stand out.</p>
               <div className="mt-10 flex flex-wrap gap-4">
                 <motion.button whileHover={{ scale: 1.05 }} onClick={() => scrollToSection("collection")} className="px-7 py-3 text-sm font-bold uppercase tracking-[0.14em] text-black" style={{ backgroundColor: accentColor }}>Shop Collection</motion.button>
